@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- META -->
+        <meta charset='utf-8'>
+
+        <!-- STYLES -->
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='css/styles.css'>
+
+        <!-- SCRIPTS -->
+        <script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
+        <script src='js/scripts.js'></script>
+
+        <!-- TITLE -->
+        <title></title>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='page-header'>
+                <h1>Task Manager</h1>
+            </div>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <form id='to-do-form'>
+                        <div class='form-group'>
+                            <label for='list-item-name'>Create a list:</label>
+                            <input type='text' id='list-item-name' class='form-control'>
+                        </div>
+                        <button type='submit'>Create</button>
+                    </form>
+
+                    <div id='show-lists'>
+                        <h3>Here are your lists:</h3>
+                        <ul id='list-items'>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <div id='show-tasks'>
+                        <form id='form-task'>
+                            <div class='form-group'>
+                                <label for='task-item-name'>Create a task:</label>
+                                <input type='text' id='task-item-name' class='form-control'>
+                            </div>
+                            <button type='submit'>Create</button>
+                        </form>
+
+                        <h3>Here are your tasks:</h3>
+                        <ul id='task-items'>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- END DIV CONTAINER -->
+    </body>
+</html>
